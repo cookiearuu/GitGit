@@ -1,6 +1,6 @@
 a = int(input())
 b = int(input())
 if a < b:
-    print(a)
+    print("1 ulken")
 else:
-    print(b)
+    print("2 ulken")
