@@ -8,8 +8,8 @@ b = int(input())
 print("enter 3rd number: ")
 c = int(input())
 if b >= a <= c:
-    print(a+"this number is the minimum")
+    print(a,"this number is the minimum")
 elif a >= b <= c:
-    print(b+"this number is the minimum")
+    print(b,"this number is the minimum")
 else:
-    print(c+"this number is the minimum")
+    print(c, "this number is the minimum")
