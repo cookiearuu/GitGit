@@ -1,4 +1,4 @@
-#lab 5.1
+# #lab 5.1
 last_names = []
 n=int(input())
 grades = []
@@ -11,70 +11,45 @@ print(last_names[0]+": "+grades[0]+"\n"+last_names[1]+": "+grades[1]+"\n"+last_n
 print(grades.sort())
 
 
+
+
 #lab5.2
-# a = [["RM", 100],
-#      ["Jin", 90], ["Suga",99]]
-# name = input("name: ")
-# for i in range(len(a)):
-#     for j in range(len(a)):
-#         if name == a[i][0]:
-#             print(a[i][0], ": ", a[i][1])
-            
-#         else:
-#             print("error")
+resume = ["Aruzhan", "Abylkassym", "87057774612", "SU"]
+print("Lastname:", resume[0], "\nName:", resume[1], "\nPhone:", resume[2], "\nUniversity:",resume[3])
+
+resume.append(20)
+print("APPEND: \n", resume)
+
+resumesecond = ["020916600934","Almaty city"]
+resume.extend(resumesecond)
+print("EXTEND: \n", resume)
+
+x = "87070192484"
+resume.insert(2, x)
+print("iNSERT: \n", resume)
+
+resume.pop(5)
+print("POP: \n", resume)
+
+resume.reverse()
+print("REVERSING: \n", resume)
+
+resume.clear()
+print("\n", resume)
 
 
 #lab5.3
 
+
+a = [99,25,65,75,12,66,44]
+
+if(a.sort()==True):
+  print("true")
+
+else:
+  print("false")
+
             
 
-#lab5.3
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# a = [["Zhanerke", 80],
-#      ["Aruzhan", 85]]
-# name = input("name:")
-# for i in range(len(a)):
-#     for j in range(len(a)):
-#         if name == a[i][0]:
-#             print(a[i][0], ":", a[i][1])
-#             break
-#         else:
-#             print("Ondai student joq!")
-#             break
-
-
-  
-
-
-# print(n)
-# grades = []
-# i=0
-# while last_names.==0:
-#   print(last_names[i] , ": ",grades.append(input()))
-#   i=i+1
-#   n=n-1
-# print(last_names,"\t",grades)
-
-
-
-
-
-
-#lab5.2
 
