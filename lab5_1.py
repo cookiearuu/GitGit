@@ -1,14 +1,14 @@
 # # #lab 5.1
-# last_names = []
-# n=int(input())
-# grades = []
-# while n>0:
-#   last_names.append(input("name: "))
-#   grades.append(input("course: "))
-#   n=n-1
+last_names = []
+n=int(input())
+grades = []
+while n>0:
+  last_names.append(input("name: "))
+  grades.append(input("course: "))
+  n=n-1
 
-# print(last_names[0]+": "+grades[0]+"\n"+last_names[1]+": "+grades[1]+"\n"+last_names[2]+": "+grades[2]+"\n")
-# print(grades.sort())
+print(last_names[0]+": "+grades[0]+"\n"+last_names[1]+": "+grades[1]+"\n"+last_names[2]+": "+grades[2]+"\n")
+print(grades.sort())
 
 
 
@@ -16,6 +16,8 @@
 #lab5.2
 resume = ["Aruzhan", "Abylkassym", "87057774612", "Satbayev University"]
 print("Lastname:", resume[0], "\nName:", resume[1], "\nPhone:", resume[2], "\nUniversity:",resume[3])
+
+print(resume.index("Aruzhan"))
 
 resume.append(20)
 print("APPEND: \n", resume)
