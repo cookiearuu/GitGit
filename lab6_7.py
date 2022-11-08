@@ -4,16 +4,16 @@
 # ақпарат немесе резюмесін ұсыну қажет.
 
 
-# list = ["Aruzhan","Aliya","Zhanerke","Almash"]
-# tuple = ("math","history","art", "physics")
-# set= {"16.09.02","08.01.02","26.05.02","25.07.02"}
-# dict ={"city":"Almaty","district":"Alatau","street":"Michurina","home":"16","flat":"a"}
+list = ["Aruzhan","Aliya","Zhanerke","Almash"]
+tuple = ("math","history","art", "physics")
+set= {"16.09.02","08.01.02","26.05.02","25.07.02"}
+dict ={"city":"Almaty","district":"Alatau","street":"Michurina","home":"16","flat":"a"}
 
 
-# print(list)
-# print(tuple)
-# print(set)
-# print(dict)
+print(list)
+print(tuple)
+print(set)
+print(dict)
 
 # Тізімдердегі, кортеждердегі, жиындардағы
 # және сөздіктердегі әдістерді қарастырып,
@@ -43,7 +43,7 @@ print(list)
 
 
 #tuple
-print("TUPLES /n")
+print("TUPLES" )
 tuple2 = ("javascript","c#")
 print(tuple+tuple2)#extended
 print(tuple[::-1]) #reversed
@@ -58,7 +58,7 @@ print(max(tuple3))
 
 
 #set 
-print("SETS /n")
+print("SETS ")
 set.add("milkshake")#added
 set.pop()#random el
 set.discard("ice tea") #delete
@@ -71,12 +71,12 @@ print(len(set3))
 
 
 #dict
-print("DICTIONARY /n")
+print("DICTIONARY ")
 print(dict)
 print(dict.values())
 print(dict.get("cake3"))
 print(dict.items())
-print(dict.keys());
+print(dict.keys())
 print(dict.pop("cake1"))
 print(dict)
 
